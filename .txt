@@ -1,0 +1,9 @@
+Academic Literature Navigator (papers → grounded summaries)
+Problem: Hard to digest a set of papers and answer research questions without missing key details.
+RAG solution: Upload PDFs, chunk + embed; ask “What do these papers say about X?” and get cited summaries.
+
+uvicorn src.app:app --reload --port 8000
+
+streamlit run streamlit.py --server.port 8501
+
+streamlit run streamlit.py
